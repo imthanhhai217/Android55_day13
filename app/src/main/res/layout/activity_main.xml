@@ -7,6 +7,7 @@
         <variable
             name="mainViewModel"
             type="com.devpro.android55_day11.MainViewModel" />
+        <import type="com.devpro.android55_day11.MyString"/>
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -22,6 +23,7 @@
             android:text="@{mainViewModel.userName}"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            android:visibility="gone"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
